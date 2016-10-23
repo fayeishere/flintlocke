@@ -9,7 +9,7 @@ html, body {
     color: #fff;
     font-size: .8em;
     line-height: 1.4;
-    background: #000 url(../img/smoke-transparent.png) no-repeat center center fixed;
+    background: #000 url(../img/smoke-transparent-comp.png) no-repeat center center fixed;
       -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -103,7 +103,7 @@ aside img{
     color: white;
 }
 h1{
-    
+
 }
 
 /* ==============
@@ -150,6 +150,7 @@ nav a:hover {
 
 .main article h1 {
     font-size: 2em;
+    line-height: 1;
 }
 
 .main aside {
@@ -227,7 +228,7 @@ nav a img{
         padding: 0;
     }
     #mc_embed_signup{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         text-align: center;
     }
