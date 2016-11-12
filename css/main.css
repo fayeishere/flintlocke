@@ -185,13 +185,18 @@ nav a img{
     width: 50%;
 }
 
+#mc_embed_signup{
+    margin-top: 2em;
+}
 #mc_embed_signup form{
     padding: 0 !important;
 }
 #mc_embed_signup input{
     color: #000 !important;
 }
-
+#mc_embed_signup input.button{
+    background-color: #fff200;
+}
 
 
 
@@ -240,6 +245,12 @@ nav a img{
         margin: 0 auto !important;
         text-align: center !important;
         margin-top: 10px !important;
+    }
+    .social img{
+        padding-bottom: 2px;
+    }
+    .typeform-share{
+        padding-left: 6px;
     }
 }
 @media only screen and (min-width: 480px) {
