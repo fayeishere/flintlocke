@@ -265,6 +265,7 @@ nav a img{
 /*        width: 20%;*/
         margin: 0;
 /*        padding: 25px 0px;*/
+        padding-bottom: 10px;
         margin-bottom: 0;
     }
 
@@ -332,7 +333,9 @@ nav a img{
 
     nav {
         float: right;
-        width: 24%;
+/*        width: 24%;*/
+    /*temp without social media*/
+        width: 13%;
     }
 
 /* ============
