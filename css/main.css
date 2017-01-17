@@ -34,6 +34,9 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+h1{
+    font-weight: normal;
+}
 
 audio,
 canvas,
@@ -198,8 +201,35 @@ nav a img{
     background-color: #fff200;
 }
 
+.main a {
+  background: #fff200;
+  background-image: -webkit-linear-gradient(top, #fff200, #cfc53c);
+  background-image: -moz-linear-gradient(top, #fff200, #cfc53c);
+  background-image: -ms-linear-gradient(top, #fff200, #cfc53c);
+  background-image: -o-linear-gradient(top, #fff200, #cfc53c);
+  background-image: linear-gradient(to bottom, #fff200, #cfc53c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 160px;
+}
 
-
+.main a:hover {
+  background: #fcf177;
+  background-image: -webkit-linear-gradient(top, #fcf177, #e3db7f);
+  background-image: -moz-linear-gradient(top, #fcf177, #e3db7f);
+  background-image: -ms-linear-gradient(top, #fcf177, #e3db7f);
+  background-image: -o-linear-gradient(top, #fcf177, #e3db7f);
+  background-image: linear-gradient(to bottom, #fcf177, #e3db7f);
+  text-decoration: none;
+}
+#btn-am{
+    margin-top: 25px;
+}
 
 
 
